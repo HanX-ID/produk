@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanX Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">HanX Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Layanan Produk Digital</h2>
+            <p>berpegang teguh dengan kepercayaan orang lain.</p>
+            <a href="#products" class="btn">Belanja Sekarang</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Layanan & Produk</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://img1.pixhost.to/images/7405/625015450_jarroffc.jpg" alt="Produk">
+                    <h3>Panel Pterodactyl</h3>
+                    <p>Rp 5.000</p>
+                    <button class="btn buy-now" onclick="window.location.href='https://t.me/hanzsigma'">Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://img1.pixhost.to/images/7404/625011992_jarroffc.jpg" alt="Produk">
+                    <h3>Virtual Private Server</h3>
+                    <p>Rp 65.000</p>
+                    <button class="btn buy-now" onclick="window.location.href='https://t.me/hanzsigma'">Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://img1.pixhost.to/images/7404/625004264_jarroffc.jpg" alt="Produk">
+                    <h3>Coding Script Bot</h3>
+                    <p>Rp 40.000</p>
+                    <button class="btn buy-now" onclick="window.location.href='https://t.me/hanzsigma'">Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://img1.pixhost.to/images/7404/625004261_jarroffc.jpg" alt="Produk">
+                    <h3>Error Debugging</h3>
+                    <p>Rp 20.000</p>
+                    <button class="btn buy-now" onclick="window.location.href='https://t.me/hanzsigma'">Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://img1.pixhost.to/images/7404/625004243_jarroffc.jpg" alt="Produk">
+                    <h3>Database NIK</h3>
+                    <p>Rp 75.000</p>
+                    <button class="btn buy-now" onclick="window.location.href='https://t.me/hanzsigma'">Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://img1.pixhost.to/images/7404/625004241_jarroffc.jpg" alt="Produk">
+                    <h3>Suntik Sosmed</h3>
+                    <p>Rp 1.000 - Rp 50.000</p>
+                    <button class="btn buy-now" onclick="window.location.href='https://t.me/hanzsigma'">Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://img1.pixhost.to/images/7404/625008586_jarroffc.jpg" alt="Produk">
+                    <h3>Sewa Pacar</h3>
+                    <p>Rp 0</p>
+                    <button class="btn buy-now" onclick="window.location.href='https://t.me/hanzsigma'">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah Farhan alias HanX, disini saya menjual beberapa layanan dan produk digital yang bisa saya promosi kan, silahkan untuk order jika berminat tata..</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 HanX</p>
+            <div class="social-links">
+                <a href="https://github.com/HanX-ID">Github</a>
+                <a href="https://t.me/hanzsigma">Telegram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navMenu = document.querySelector('nav ul');
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
